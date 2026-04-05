@@ -89,6 +89,7 @@ jobs:
           # ccache -s
           which python
           python --version
+          alias pip=pip3
           # sudo apt-get install libatlas-base-dev
           pip install --upgrade pip build
           # Set numpy version first, other packages link against it
